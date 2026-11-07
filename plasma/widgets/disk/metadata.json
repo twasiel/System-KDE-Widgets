@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "org.sysmanager.disk",
+        "Name": "Sys Manager: Storage Monitor",
+        "Description": "Drive models, disk usage per mount and read/write speed",
+        "Icon": "drive-harddisk",
+        "Category": "System Information",
+        "Authors": [
+            {
+                "Name": "Tomasz"
+            }
+        ],
+        "License": "MIT",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

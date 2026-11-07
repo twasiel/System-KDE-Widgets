@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "org.sysmanager.gpu",
+        "Name": "Sys Manager: GPU Monitor",
+        "Description": "GPU model, usage, frequency, video memory, temperature and power",
+        "Icon": "video-card-inactive",
+        "Category": "System Information",
+        "Authors": [
+            {
+                "Name": "Tomasz"
+            }
+        ],
+        "License": "MIT",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "org.sysmanager.overview",
+        "Name": "Sys Manager: System Overview",
+        "Description": "Full system list: system info, CPU, memory, GPU, storage, network and top processes",
+        "Icon": "utilities-system-monitor",
+        "Category": "System Information",
+        "Authors": [
+            {
+                "Name": "Tomasz"
+            }
+        ],
+        "License": "MIT",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

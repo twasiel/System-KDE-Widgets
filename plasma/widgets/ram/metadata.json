@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "org.sysmanager.ram",
+        "Name": "Sys Manager: Memory Monitor",
+        "Description": "RAM usage, swap and installed memory modules",
+        "Icon": "memory",
+        "Category": "System Information",
+        "Authors": [
+            {
+                "Name": "Tomasz"
+            }
+        ],
+        "License": "MIT",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

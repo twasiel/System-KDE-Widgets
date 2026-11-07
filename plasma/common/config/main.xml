@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="updateInterval" type="Int"><default>2000</default></entry>
+    <entry name="historyLength" type="Int"><default>60</default></entry>
+    <entry name="showGraph" type="Bool"><default>true</default></entry>
+    <entry name="compactShowLabel" type="Bool"><default>true</default></entry>
+    <entry name="compactShowGraph" type="Bool"><default>true</default></entry>
+    <entry name="warnColors" type="Bool"><default>true</default></entry>
+    <entry name="showPerCore" type="Bool"><default>true</default></entry>
+    <entry name="showRamModules" type="Bool"><default>true</default></entry>
+    <entry name="showGpuEngines" type="Bool"><default>true</default></entry>
+    <entry name="showVirtualInterfaces" type="Bool"><default>false</default></entry>
+    <entry name="gpuIndex" type="Int"><default>0</default></entry>
+    <entry name="ramCompactAbsolute" type="Bool"><default>false</default></entry>
+  </group>
+  <group name="Sections">
+    <entry name="showSystem" type="Bool"><default>true</default></entry>
+    <entry name="showCpu" type="Bool"><default>true</default></entry>
+    <entry name="showRam" type="Bool"><default>true</default></entry>
+    <entry name="showGpu" type="Bool"><default>true</default></entry>
+    <entry name="showDisk" type="Bool"><default>true</default></entry>
+    <entry name="showNet" type="Bool"><default>true</default></entry>
+    <entry name="showProcs" type="Bool"><default>true</default></entry>
+    <entry name="compactItems" type="String"><default>cpu,ram,gpu</default></entry>
+  </group>
+</kcfg>

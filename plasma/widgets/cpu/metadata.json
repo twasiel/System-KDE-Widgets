@@ -1,0 +1,19 @@
+{
+    "KPlugin": {
+        "Id": "org.sysmanager.cpu",
+        "Name": "Sys Manager: CPU Monitor",
+        "Description": "CPU model, usage per core, frequency, temperature and load",
+        "Icon": "cpu",
+        "Category": "System Information",
+        "Authors": [
+            {
+                "Name": "Tomasz"
+            }
+        ],
+        "License": "MIT",
+        "Version": "1.0.0",
+        "Website": ""
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
